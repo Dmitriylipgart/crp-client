@@ -12,7 +12,7 @@ class App extends Component {
     time: ''
   };
 
-  url = "http://localhost:8080/api/commute/range?";
+  url = "http://52.59.243.58/crp/api/commute/range?";
 
   onChange = (e) =>{
     const name = e.target.name;
